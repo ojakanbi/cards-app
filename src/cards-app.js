@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 import "@lrnwebcomponents/accent-card/accent-card.js"; // need to import the component
 import "@lrnwebcomponents/meme-maker/meme-maker.js"; 
+import "@ojakanbi/psu-card/src/psu-card.js";
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -60,6 +61,13 @@ class CardsApp extends LitElement {
   render() {
     return html`
       <main>
+
+      <psu-card image ="https://m.media-amazon.com/images/I/613Xu8FT8gL.jpg" title="Penn State" >
+      <p>Penn State Blue and White </p>
+   </psu-card>
+        
+        
+        
         <meme-maker alt = "Cat stalking a small toy" image-url = "https://cdn2.thecatapi.com/images/9j5.jpg" top-text = "I can bring you " bottom-text = "the death">
         </meme-maker>
         <accent-card image-src="http://placekitten.com/200/600" accent-color="red" horizontal accent-heading>

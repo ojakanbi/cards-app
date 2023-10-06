@@ -16,9 +16,11 @@
     "start": "web-dev-server"
   },
   "dependencies": {
-    "@lrnwebcomponents/meme-maker": "^7.0.18",
     "@lrnwebcomponents/accent-card": "^7.0.18",
-    "lit": "^2.0.2"
+    "@lrnwebcomponents/meme-maker": "^7.0.18",
+    "@ojakanbi/psu-card": "^0.0.0",
+    "lit": "^2.0.2",
+    "ojakanbi-psu-card": "^0.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",
